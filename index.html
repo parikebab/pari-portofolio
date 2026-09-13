@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PARI — Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="noise"></div>
+  <div class="cursor"></div>
+
+  <header class="topbar">
+    <button class="logo" data-page="landing">PARI®</button>
+    <nav class="nav">
+      <button data-page="home">Home</button>
+      <button data-page="work">Work</button>
+      <button data-page="about">About</button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ================= LANDING ================= -->
+    <section id="landing" class="page active">
+      <div class="shape shape-a"></div>
+      <div class="shape shape-b"></div>
+      <div class="landing-inner">
+        <p class="eyebrow">Creative portfolio / 2025—26</p>
+        <h1 class="landing-title">PARI<br>STUDIO</h1>
+        <p class="landing-note">Pick a door. Explore one part at a time.</p>
+
+        <div class="choices">
+          <button class="choice yellow" data-page="home">
+            <span class="choice-title">Enter Home</span>
+            <span class="choice-text">Introduction, services and experience.</span>
+            <span class="arrow">↗</span>
+          </button>
+          <button class="choice white" data-page="work">
+            <span class="choice-title">See Work</span>
+            <span class="choice-text">Selected projects and visual experiments.</span>
+            <span class="arrow">↗</span>
+          </button>
+          <button class="choice orange" data-page="about">
+            <span class="choice-title">About Me</span>
+            <span class="choice-text">A little story behind the work.</span>
+            <span class="arrow">↗</span>
+          </button>
+          <button class="choice green" data-page="contact">
+            <span class="choice-title">Let's Talk</span>
+            <span class="choice-text">Contact and collaboration.</span>
+            <span class="arrow">↗</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= HOME ================= -->
+    <section id="home" class="page">
+      <div class="hero">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Welcome / selected identity</p>
+          <h2>Creative<br>Designer</h2>
+        </div>
+        <img class="hero-image" src="assets/hero.png" alt="Hero portfolio preview">
+      </div>
+
+      <div class="intro section-pad reveal">
+        <div>
+          <p class="big-text">Hi, I'm Pari. I make visual work that is fun to look at, easy to remember, and a little unexpected.</p>
+        </div>
+        <div class="details">
+          <strong>Services</strong>
+          Art direction<br>
+          Brand & identity<br>
+          Graphic design<br>
+          Mixed media<br>
+          Packaging design<br>
+          Type design
+        </div>
+      </div>
+
+      <div class="experience section-pad">
+        <h2 class="huge reveal">Experience</h2>
+        <div class="table-head"><span>Studio</span><span>Role</span><span>Years</span></div>
+        <div class="table-row reveal"><span>Studio XYZ</span><span>Senior Designer</span><span>2023—Present</span></div>
+        <div class="table-row reveal"><span>Freelance</span><span>Independent Creative</span><span>2021—2023</span></div>
+        <div class="table-row reveal"><span>Agency Alpha</span><span>Visual Designer</span><span>2019—2021</span></div>
+      </div>
+
+      <div class="cta reveal">
+        <p class="eyebrow">Have an idea?</p>
+        <h2>Let's work<br>together.</h2>
+        <button class="cta-button" data-page="contact">Start a conversation ↗</button>
+      </div>
+      <button class="back" data-page="landing">← Menu</button>
+    </section>
+
+    <!-- ================= WORK ================= -->
+    <section id="work" class="page">
+      <div class="section-head">
+        <div><p class="eyebrow">Selected projects</p><h2>Work</h2></div>
+        <p>Ganti gambar project dengan aset kamu sendiri di folder <b>assets</b>.</p>
+      </div>
+
+      <div class="projects">
+        <article class="project reveal">
+          <img src="assets/project-1.png" alt="Project 1">
+          <div class="project-info"><h3>Project One</h3><span>Visual identity</span></div>
+        </article>
+        <article class="project reveal">
+          <img src="assets/project-2.png" alt="Project 2">
+          <div class="project-info"><h3>Project Two</h3><span>Art direction</span></div>
+        </article>
+        <article class="project reveal">
+          <img src="assets/project-3.png" alt="Project 3">
+          <div class="project-info"><h3>Project Three</h3><span>Editorial</span></div>
+        </article>
+        <article class="project reveal">
+          <img src="assets/about-image.png" alt="Project 4">
+          <div class="project-info"><h3>Project Four</h3><span>Typography</span></div>
+        </article>
+      </div>
+      <button class="back" data-page="landing">← Menu</button>
+    </section>
+
+    <!-- ================= ABOUT ================= -->
+    <section id="about" class="page">
+      <div class="about-hero">
+        <p class="eyebrow">A little context</p>
+        <h2 class="reveal">About<br>Me</h2>
+      </div>
+      <div class="about-body section-pad">
+        <div>
+          <p class="big-text reveal">I make visual work that likes to bend the rules a little—mixing type, texture, image, and color until a clear idea starts to feel alive.</p>
+          <p class="body-text reveal">My favorite place is somewhere between order and chaos: enough structure to communicate, enough personality to make you look twice.</p>
+        </div>
+        <aside class="about-card reveal">
+          <h3>What I like</h3>
+          <p>Art direction<br>Graphic design<br>Experimental type<br>Mixed media<br>Visual storytelling</p>
+          <img src="assets/about-image.png" alt="About image">
+        </aside>
+      </div>
+      <button class="back" data-page="landing">← Menu</button>
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+    <section id="contact" class="page">
+      <div class="contact-wrap">
+        <div>
+          <p class="eyebrow">Open for collaborations</p>
+          <h2 class="reveal">Let's make<br>a mess.</h2>
+        </div>
+        <div class="contact-links">
+          <!-- EDIT LINK DI SINI -->
+          <a href="mailto:hello@example.com" class="contact-link"><span>Email</span><b>↗</b></a>
+          <a href="#" class="contact-link"><span>Instagram</span><b>↗</b></a>
+          <a href="#" class="contact-link"><span>LinkedIn</span><b>↗</b></a>
+        </div>
+      </div>
+      <button class="back" data-page="landing">← Menu</button>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
